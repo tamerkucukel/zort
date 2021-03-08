@@ -1,0 +1,19 @@
+
+body {
+  background-color: #f6f7d7;
+  font-family: "Comfortaa" , cursive;
+  color: #f38181;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 9px;
+  border-color: #ff9a00;
+}
+h1 {
+  color: #ff165d;
+}
+h3 {
+  color: #3ec1d3;
+}
