@@ -1,8 +1,10 @@
-
 body {
   background-color: #f6f7d7;
-  font-family: "Comfortaa" , cursive;
+  font-family: "Comfortaa", cursive;
   color: #f38181;
+  background-image: url(https://www.colorhexa.com/30475e.png),url(https://www.colorhexa.com/30475e.png);
+  background-position: 20% , 80%;
+  background-repeat: repeat-y;
 }
 
 hr {
@@ -11,9 +13,93 @@ hr {
   border-width: 9px;
   border-color: #ff9a00;
 }
+
 h1 {
   color: #ff165d;
 }
+
 h3 {
   color: #3ec1d3;
+  font-size: 30px;
+  text-align: center;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-width: 15px;
+  border-radius: 30px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-color: #ff9a00;
+}
+
+.center {
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 50%;
+  text-align: center;
+}
+
+#rei {
+  height: auto;
+  width: auto;
+  border-style: dotted;
+  border-radius: 300px;
+  border-width: 4px;
+  border-color: #ff9a00;
+}
+
+.list1 {
+  text-align: center;
+  line-height: 2em ;
+}
+
+.list2 {
+  line-height: 2em;
+}
+
+.tablo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 2em;
+  border-spacing: 10px 0;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.buttonmusic{
+  font-family: "Comfortaa", cursive;
+  border: none;
+  transition-duration: 0.4s;
+  color: #ff165d;
+  background-color: #f6f7d7;
+  text-decoration: none;
+}
+.buttonmusic:hover{
+  font-family: "Comfortaa", cursive;
+  color: #f38181;
+  border-style: outset;
+  border-width: 6px;
+  border-color: #3ec1d3;
+  border-radius: 24px;
+}
+
+.buttonmusic:active{
+  font-family: "Comfortaa", cursive;
+  border: none;
+  color: #ff165d;
+  background-color: #f6f7d7;
+  text-decoration: none;
+  transform: translateY(2px);
+}
+
+#hobbies{
+  background-image: url(https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png);
+  background-position: 55% 95%;
+  background-size: 1%;
+  background-repeat: no-repeat;
 }
